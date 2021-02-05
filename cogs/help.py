@@ -16,7 +16,7 @@ class shop(commands.Cog):
         helpembed = discord.Embed(
             colour = discord.Colour.blue(),
             title = 'Wish Shopping Commands',
-            description = '$help | Shows this menu.\n$buy <username> <x> <y> <z> <amount> <item> | Buys an item.\n$buymulti\n$contact <message> | Contacts a staff member.\n$report <@mention> <reason> | Reports a player.'
+            description = '$help | Shows this menu.\n$buy <username> <x> <y> <z> <amount> <item> | Buys an item.\n$buymulti\n$contact <message> | Contacts a staff member.\n$report <@user> <reason> | Reports a player.'
         )
         helpembed.set_footer(text='Wish Shopping | DemocracyCraft')
         await ctx.send(embed=helpembed)
